@@ -78,9 +78,6 @@ plotly
 - 🔄 Moving Average Overlays  
 - 🔥 Correlation Heatmaps  
 
-## 🙌 Acknowledgements
-
-Special thanks to financial APIs and data providers for stock data, and to the open-source community for tools and resources.
 
 ---
 
