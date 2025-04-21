@@ -1,83 +1,53 @@
-# INTERNSHIP  
-**"Stock Portfolio Monitoring and Visualisation"**:
+# Portfolio Monitoring Notebook
 
----
+This Jupyter Notebook, `PORTFOLIO_MONITORING.ipynb`, provides a framework for tracking and analyzing a financial portfolio consisting of various stock tickers. It pulls historical price data, computes performance metrics, and visualizes trends to aid in portfolio monitoring and evaluation.
 
-# 📈 Stock Portfolio Monitoring and Visualization
+## Features
 
-This project focuses on analyzing and visualizing stock portfolio performance using historical OHLC (Open, High, Low, Close) data. The goal is to extract insights from stock trends and assist in making informed investment decisions.
+- **Ticker-Based Portfolio Tracking**  
+  Define a custom list of stock tickers representing your portfolio holdings.
 
-## 📌 Project Highlights
+- **Historical Price Retrieval**  
+  Automatically fetches adjusted closing prices for all tickers using Yahoo Finance data via the `yfinance` API.
 
-- **Data Source**: Historical stock data from July 2024 to December 2024
-- **Key Features**:
-  - OHLC candlestick plotting
-  - Volume trend analysis
-  - Correlation heatmap between multiple stocks
-  - Moving averages and trend indicators
-  - Portfolio returns and volatility calculations
+- **Return Calculations**  
+  Computes daily returns and cumulative returns for each stock in the portfolio.
 
-## 🛠️ Tools & Technologies Used
+- **Performance Visualization**  
+  Plots:
+  - Adjusted Close Prices
+  - Daily Returns
+  - Cumulative Returns over time
 
-- **Python**
-- **Pandas**, **NumPy** – data manipulation
-- **Matplotlib**, **Seaborn**, **Plotly** – visualization
-- **Jupyter Notebook** – analysis environment
+- **Portfolio Aggregation**  
+  Supports simple portfolio aggregation using equal weighting (can be extended to custom weights).
 
-## 🧠 Insights Derived
+- **Clean, Modular Code**  
+  Makes use of Pandas for data wrangling and Matplotlib for visualizations, with clear code blocks for customization.
 
-- Analyzed stock correlations to assess diversification
-- Identified patterns using technical indicators like moving averages
-- Detected periods of high volatility
-- Visualized and compared performances across different companies
+## Dependencies
 
-## 📂 Folder Structure
+To run this notebook, you will need the following Python libraries:
 
-```
-📁 Stock-Portfolio-Monitoring
-├── Stock Portfolio Monitoring and Visualisation.ipynb
-├── README.md
-├── data/
-│   └── historical_stock_data.csv
+```bash
+pip install pandas numpy yfinance matplotlib
 ```
 
-## 🚀 Getting Started
+## How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/stock-portfolio-monitoring.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd stock-portfolio-monitoring
-   ```
-3. Install required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Launch the notebook:
-   ```bash
-   jupyter notebook
-   ```
-
-## ✅ Requirements
-
-Create a `requirements.txt` file with:
-
-```txt
-pandas
-numpy
-matplotlib
-seaborn
-plotly
-```
-
-## 📊 Example Visualizations
-
-- 📉 Candlestick Charts  
-- 🔄 Moving Average Overlays  
-- 🔥 Correlation Heatmaps  
+1. Clone or download the notebook.
+2. Install the dependencies listed above.
+3. Define your list of stock tickers in the designated cell.
+4. Run the notebook cell by cell to:
+   - Fetch data
+   - Calculate returns
+   - Visualize portfolio performance
 
 
----
+## Notes
+
+- The notebook uses equal-weighting by default. If you want to adjust the portfolio to reflect actual investment amounts, modify the weighting logic accordingly.
+- All data is retrieved from Yahoo Finance, which may have limitations in availability or accuracy depending on the ticker.
+
+
 
