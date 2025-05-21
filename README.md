@@ -77,17 +77,17 @@ This notebook is designed to run in **Jupyter Notebook**. It uses the following 
 
   * RELIANCE.NS, TCS.NS, INFY.NS, HDFCBANK.NS, ICICIBANK.NS, ITC.NS, LT.NS, SBIN.NS, HINDUNILVR.NS, ASIANPAINT.NS
   * | S. No. | Company Name                     | Ticker       |
-|--------|----------------------------------|--------------|
-| 1      | Reliance Industries Ltd.         | RELIANCE.NS  |
-| 2      | Tata Consultancy Services Ltd.   | TCS.NS       |
-| 3      | Infosys Ltd.                     | INFY.NS      |
-| 4      | HDFC Bank Ltd.                   | HDFCBANK.NS  |
-| 5      | ICICI Bank Ltd.                  | ICICIBANK.NS |
-| 6      | ITC Ltd.                         | ITC.NS       |
-| 7      | Larsen & Toubro Ltd.             | LT.NS        |
-| 8      | State Bank of India              | SBIN.NS      |
-| 9      | Hindustan Unilever Ltd.          | HINDUNILVR.NS|
-| 10     | Asian Paints Ltd.                | ASIANPAINT.NS|
+    |--------|----------------------------------|--------------|
+    | 1      | Reliance Industries Ltd.         | RELIANCE.NS
+    | 2      | Tata Consultancy Services Ltd.   | TCS.NS       |
+    | 3      | Infosys Ltd.                     | INFY.NS      |
+    | 4      | HDFC Bank Ltd.                   | HDFCBANK.NS  |
+    | 5      | ICICI Bank Ltd.                  | ICICIBANK.NS |
+    | 6      | ITC Ltd.                         | ITC.NS       |
+    | 7      | Larsen & Toubro Ltd.             | LT.NS        |
+    | 8      | State Bank of India              | SBIN.NS      |
+    | 9      | Hindustan Unilever Ltd.          | HINDUNILVR.NS|
+    | 10     | Asian Paints Ltd.                | ASIANPAINT.NS|
 
 * **Data Source**: Yahoo Finance via yfinance API
 * **Performance Metrics**:
