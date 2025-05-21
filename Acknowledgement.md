@@ -1,5 +1,8 @@
 # Acknowledgement
 
-This project was completed as part of my internship at **IDEAS-TIH, Indian Statistical Institute, Kolkata**, under the guidance of **Dr. Sujoy Kumar Biswas**.
-I would like to express my heartfelt gratitude to him for his mentorship, insights, and constant support throughout this project.
-I also thank the entire team at IDEAS for their technical resources, feedback, and collaborative environment.
+This project was undertaken as part of my internship at **IDEAS-TIH**, Indian Statistical Institute, Kolkata. I am deeply grateful to **Dr. Sujoy Kumar Biswas** for his unwavering guidance, insightful feedback, and constant support throughout the course of this work. His mentorship played a pivotal role in shaping the analytical approach and overall direction of the project.
+
+I would also like to express my sincere thanks to the entire team at **IDEAS-TIH** for their generous support, hands-on training sessions, and access to valuable technical resources. 
+
+This internship has been an immensely rewarding learning experience, both academically and professionally, and I am thankful to have had the opportunity to contribute to such a forward-looking and impactful initiative.
+
