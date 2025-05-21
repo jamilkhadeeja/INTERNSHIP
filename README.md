@@ -73,7 +73,7 @@ This notebook is designed to run in **Jupyter Notebook**. It uses the following 
 
 ## 🧠 Model Info
 
-* **Stocks Covered**:
+* **Selected Nifty-50 Stocks**:
 
   * RELIANCE.NS, TCS.NS, INFY.NS, HDFCBANK.NS, ICICIBANK.NS, ITC.NS, LT.NS, SBIN.NS, HINDUNILVR.NS, ASIANPAINT.NS
 * **Data Source**: Yahoo Finance via yfinance API
